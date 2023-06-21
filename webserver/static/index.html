@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Leaderboard - Least Blocks Cheese Race</title>
+    <link href='//fonts.googleapis.com/css?family=Source+Code+Pro:300&subset=latin,latin-ext' rel='stylesheet'
+        type='text/css' />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+
+    <div id="sidebar">
+        <form>
+            <label for="username">update player:</label><br>
+            <input type="text" id="username-input" name="username">
+        </form>
+        <button id="username-submit" class="username-submit">submit</button>
+    </div>
+
+    <main>
+        <article>
+            <p>Below is the <em>Least Blocks</em> leaderboard for Jstris 100 line cheese race.<br>
+                This leaderboard normally updates weekly, but you can manually call an update to a player using the
+                <em>update player</em> form.
+        </article>
+        <div id="leaderboard"></div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

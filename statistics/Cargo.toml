@@ -1,0 +1,15 @@
+[package]
+name = "statistics"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cheese-scraper = {path = "../cheese-scraper"}
+serde = {version = "1.0.152", features = ["derive"]}
+serde_json = "1.0.91"
+tokio = "1.25.0"
+unicode-truncate = "0.2.0"
+unicode-width = "0.1.10"
+webhook = "2.1.2"

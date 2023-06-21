@@ -1,0 +1,8 @@
+{
+    "leaderboard_query_delay": 1000,
+    "run_query_delay": 2000,
+    "between_query_delay": 500,
+    "retry_query_delay": 5000,
+    "max_leaderboard_players": null,
+    "output_path": "players.json"
+}
