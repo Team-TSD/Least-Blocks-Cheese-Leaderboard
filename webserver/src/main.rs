@@ -53,7 +53,7 @@ async fn main() -> std::io::Result<()> {
             .service(Files::new("/players", "./static/").index_file("players.json"))
             .service(Files::new("/", "./static/").index_file("index.html"))
     })
-    .bind(("0.0.0.0", 8080))?
+    .bind(("0.0.0.0", 3000))?
     .run()
     .await
 }

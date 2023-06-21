@@ -1,7 +1,7 @@
 body {
     background: #29282c;
-    color: #d8d8d9;
-    font-family: "Source Code Pro", monospace;
+    color: #EBEBD3;
+    font-family: 'Roboto', sans-serif;
     font-size: 14pt;
     min-width: 60em;
 }
@@ -20,12 +20,12 @@ main {
 
 a {
     text-decoration: none;
-    color: #47447d;
+    color: #6969B3;
 }
 
 a:hover,
 a:focus {
-    color: #686782;
+    color: #8b8bdf;
 }
 
 h1,
@@ -49,26 +49,9 @@ article {
     margin-top: 2em;
 }
 
-article:first-of-type {
-    margin-top: 0;
-}
-
-article h2 {
-    color: #ffffff;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    white-space: nowrap;
-}
-
-article h2+* {
-    margin-top: 0;
-}
-
 article em {
-    color: #ffffff;
     font-style: italic;
 }
-
 
 .leaderboard-entry {
     white-space: pre;
@@ -81,7 +64,7 @@ article em {
 }
 
 .leaderboard-totalscore {
-    color: #e5c261;
+    color: #FFEE88;
     width: 40px;
     padding-left: 10px;
     display: inline-block;
@@ -121,7 +104,7 @@ article em {
     border-radius: 2px;
     border-style: groove;
     overflow: hidden;
-    color: #ffffff;
+    color: #EBEBD3;
 }
 
 .username-submit:disabled {
@@ -129,5 +112,5 @@ article em {
 }
 
 .username-submit:hover {
-    border-color: #7abab7;
+    border-color: #EF626C;
 }
