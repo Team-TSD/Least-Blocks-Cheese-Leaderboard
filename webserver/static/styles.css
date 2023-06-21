@@ -1,6 +1,6 @@
 body {
-    background: #0f0f23;
-    color: #cccccc;
+    background: #29282c;
+    color: #d8d8d9;
     font-family: "Source Code Pro", monospace;
     font-size: 14pt;
     min-width: 60em;
@@ -20,12 +20,12 @@ main {
 
 a {
     text-decoration: none;
-    color: #009900;
+    color: #47447d;
 }
 
 a:hover,
 a:focus {
-    color: #99ff99;
+    color: #686782;
 }
 
 h1,
@@ -42,66 +42,6 @@ h2 {
     position: relative;
     z-index: 10;
 }
-
-header {
-    white-space: nowrap;
-    cursor: default;
-    z-index: 100;
-    margin-bottom: 2em;
-}
-
-header h1 {
-    display: inline-block;
-    margin: 0;
-    padding-right: 1em;
-}
-
-header h1 a,
-header h1 span {
-    display: inline-block;
-    text-decoration: none;
-    color: #00cc00;
-    text-shadow: 0 0 2px #00cc00, 0 0 5px #00cc00;
-}
-
-header h1 a:hover,
-header h1 a:focus {
-    color: #99ff99;
-    text-shadow: 0 0 2px #99ff99, 0 0 5px #99ff99;
-}
-
-header h1.title-event .title-event-wrap {
-    opacity: .33;
-    white-space: pre;
-}
-
-header .user {
-    display: inline-block;
-    padding-left: 1em;
-}
-
-header nav {
-    display: inline-block;
-}
-
-header nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-}
-
-header nav li {
-    display: inline-block;
-    padding: 0 .6em;
-}
-
-header nav a {
-    display: inline-block;
-    text-decoration: none;
-    outline: none;
-}
-
 
 article {
     width: 45em;
@@ -126,40 +66,9 @@ article h2+* {
 
 article em {
     color: #ffffff;
-    font-style: normal;
-    text-shadow: 0 0 5px #ffffff;
+    font-style: italic;
 }
 
-article em.star {
-    color: #ffff66;
-    font-style: normal;
-    text-shadow: 0 0 5px #ffff66;
-}
-
-article a {
-    white-space: nowrap;
-}
-
-article .aside {
-    opacity: .6;
-}
-
-article ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-article li {
-    padding-left: 2.5em;
-    position: relative;
-}
-
-article li:before {
-    content: "\00a0\00a0-\00a0";
-    position: absolute;
-    left: 0;
-    top: 0;
-}
 
 .leaderboard-entry {
     white-space: pre;
@@ -172,7 +81,7 @@ article li:before {
 }
 
 .leaderboard-totalscore {
-    color: #ffffff;
+    color: #e5c261;
     width: 40px;
     padding-left: 10px;
     display: inline-block;
@@ -220,5 +129,5 @@ article li:before {
 }
 
 .username-submit:hover {
-    border-color: #99ff99;
+    border-color: #7abab7;
 }
