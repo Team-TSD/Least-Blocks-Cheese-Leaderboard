@@ -1,1 +1,4 @@
 target/
+players.json
+old_players.json
+whitelist.json
